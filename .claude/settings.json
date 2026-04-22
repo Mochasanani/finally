@@ -1,20 +1,20 @@
 {
-  "hooks": {
-    "Stop": [
-      {
-        "hooks": [
-          {
-            "type": "command",
-            "command": "codex exec --full-auto \"Review all changes since the last commit and write feedback to planning/REVIEW.md\""
-          }
-        ]
-      }
-    ]
-  },
   "enabledPlugins": {
     "frontend-design@claude-plugins-official": true,
     "context7@claude-plugins-official": true,
-    "playwright@claude-plugins-official": true,
-    "independant-reviewer@elvin-tools": true
+    "playwright@claude-plugins-official": true
   }
+  // },
+  // "hooks": {
+  //   "Stop": [
+  //     {
+  //       "hooks": [
+  //         {
+  //           "type": "command",
+  //           "command": "codex exec --full-auto \"Review all changes since the last commit and write feedback to planning/REVIEW.md\""
+  //         }
+  //       ]
+  //     }
+  //   ]
+  // }
 }
