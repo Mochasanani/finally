@@ -1,0 +1,2 @@
+Create an Agent Team to complete the project as defined. Team-members: a Front-end engineer to work on the frontend, a Banend API Engineer on the backend, Aa Database Engineer on all DB related code, an LLM Engineer on the LLM calls, While all team-members      
+  should work on unit tests, there should be an Integration Tester team-member that builds and runs end-to-end Playwright tests when ready, reporting issues back to be fixed by the team-members. Finally, a Devops engineer for the Docker container and the scripts.
